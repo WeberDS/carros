@@ -1,8 +1,7 @@
 
 
 
-@import url('https://fonts.googleapis.com/css2?family=Nabla&family=Story+Script&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=BBH+Bogle&display=swap');
 
 body {
     background-color: #1a1a1a; 
@@ -10,8 +9,14 @@ body {
     font-family: 'Exo 2', sans-serif; 
 }
 
+.bbh-bogle-regular {
+  font-family: "BBH Bogle", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 h1, h2 {
-    font-family: 'Orbitron', sans-serif; 
+    font-family: 'BBH Bogle', sans-serif; 
     letter-spacing: 2px;
 }
 
@@ -79,7 +84,7 @@ p {
 .carro-capa {
     width: 100%;
     height: auto;
-    max-height: 1500px; 
+    max-height: 1000px; 
     margin-bottom: 20px;
     object-fit: cover;
   

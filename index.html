@@ -3,19 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Carros: Elétricos vs Combustão</title>
+    <title>Carros: Elétricos vs Combustão. Qual melhor opção pro seu bolso?</title>
+    <script src="js/script.js"></script>
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body> 
 
 <header>
-    <h1>O Futuro da Mobilidade: Elétricos vs Combustão</h1>
+    <h1> Elétricos vs Combustão. Qual melhor opção pro seu bolso?</h1>
     <img class="carro-capa" src="img/capasitecarro.jpg" alt="Imagem dividida entre um carro elétrico e um a combustão">
 </header>
 
 <main>
-    <div id="fotos">
+<section id="calculadora">
+    <h2>Calcule sua Economia: Elétrico vs Combustão</h2>
+    <p>Descubra quanto você pode economizar por mês fazendo a transição.</p>
+    
+    <form id="form-economia">
+        <div class="grupo-input">
+            <label for="km-mes">Quantos Km você dirige por mês?</label>
+            <input type="number" id="km-mes" placeholder="Ex: 1200">
+        </div>
+        
+        <div class="grupo-input">
+            <label for="preco-gasolina">Preço do litro da gasolina (R$):</label>
+            <input type="number" id="preco-gasolina" step="0.01" placeholder="Ex: 5.80">
+        </div>
+        
+        <button type="submit" id="btn-calcular">Calcular Economia</button>
+    </form>
+
+    <div id="resultado-calculadora"></div>
+</section>
+
+
+    <div class="fotos">
         <img class="carro-imagem" src="img/motor1.jpg" alt="Carro elétrico carregando na tomada">
         <img class="carro-imagem" src="img/meio1.webp" alt="Motor de um carro a combustão">
         <img class="carro-imagem" src="img/eletrico4.jpg" alt="Carro esportivo na rodovia">

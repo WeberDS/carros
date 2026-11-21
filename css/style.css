@@ -1,5 +1,7 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@400;600&family=Orbitron:wght@500;700&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=BBH+Bogle&display=swap');
 
 body {
     background-color: #1a1a1a; 
@@ -7,8 +9,14 @@ body {
     font-family: 'Exo 2', sans-serif; 
 }
 
+.bbh-bogle-regular {
+  font-family: "BBH Bogle", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 h1, h2 {
-    font-family: 'Orbitron', sans-serif; 
+    font-family: 'BBH Bogle', sans-serif; 
     letter-spacing: 2px;
 }
 
@@ -19,6 +27,20 @@ h1 {
     margin-top: 30px;
 }
 
+.carro-imagem {
+    width: 400px; 
+    height: 500px; 
+    margin: 10px;
+    padding: 6px;
+    background-color: #000000;
+    border: 4px solid #d10000; 
+    transition: transform 0.3s;
+
+}
+
+.carro-imagem:hover {
+    transform: scale(1.2);
+}
 
 #critica {
     max-width: 700px;
@@ -29,44 +51,15 @@ h1 {
   
 }
 
-.carro-imagem {
-    width: 300px; 
-    height: 400px; 
+.fotos2 { 
+    width: 400px; 
+    height: 500px; 
     margin: 10px;
     padding: 6px;
     background-color: #000000;
     border: 4px solid #d10000; 
     transition: transform 0.3s;
-    object-fit: cover; /* Ajuda a imagem a não achatar dentro do tamanho fixo */
 }
-
-.carro-imagem:hover {
-    transform: scale(1.2);
-}
-
-.fotos {
-    display: flex;
-    justify-content: center; 
-    align-items: center;     
-    gap: 16px;               
-    flex-wrap: wrap;         
-    width: 100%;             
-    margin: 20px 0;          
-}
-
-.fotos2 {
-    display: flex;
-    justify-content: center; 
-    align-items: center;     
-    gap: 16px;               
-    flex-wrap: nowrap;         
-    width: 100%;             
-    margin: 20px 0;    
-          
-}
-
-
-
 
 p {
     color: #cccccc; 
@@ -76,10 +69,10 @@ p {
 .carro-capa {
     width: 100%;
     height: auto;
-    max-height: 900px; 
+    max-height: 1500px; 
     margin-bottom: 20px;
     object-fit: cover;
-    display: block;
+  
    
 }
 
